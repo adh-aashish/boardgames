@@ -1,6 +1,6 @@
-#include "include/Chess.hpp"
-#include "include/Checkers.hpp"
-#include "include/Buddhichal.hpp"
+#include "include/chess/Chess.hpp"
+#include "include/checkers/Checkers.hpp"
+#include "include/buddhichal/Buddhichal.hpp"
 
 int main()
 {
