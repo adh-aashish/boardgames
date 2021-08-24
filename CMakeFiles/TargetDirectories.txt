@@ -1,3 +1,0 @@
-/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/CMakeFiles/rebuild_cache.dir
-/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/CMakeFiles/edit_cache.dir
-/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/CMakeFiles/BoardGames.dir
