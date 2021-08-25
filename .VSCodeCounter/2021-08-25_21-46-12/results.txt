@@ -1,0 +1,93 @@
+Date : 2021-08-25 21:46:12
+Directory : /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames
+Total : 60 files,  6467 codes, 1081 comments, 826 blanks, all 8374 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| C++      |         59 |      6,467 |      1,081 |        825 |      8,373 |
+| Markdown |          1 |          0 |          0 |          1 |          1 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                     | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                        |         60 |      6,467 |      1,081 |        826 |      8,374 |
+| include                                                                                                  |         23 |        870 |        573 |        159 |      1,602 |
+| include/buddhichal                                                                                       |          1 |         69 |          0 |          3 |         72 |
+| include/checkers                                                                                         |         17 |        699 |         94 |        123 |        916 |
+| include/chess                                                                                            |          5 |        102 |        479 |         33 |        614 |
+| source                                                                                                   |         34 |      5,432 |        504 |        656 |      6,592 |
+| source/buddhichal                                                                                        |          7 |        823 |         21 |         52 |        896 |
+| source/checkers                                                                                          |         11 |      2,052 |        371 |        144 |      2,567 |
+| source/chess                                                                                             |         16 |      2,557 |        112 |        460 |      3,129 |
++----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                 | language | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/README.md                                | Markdown |          0 |          0 |          1 |          1 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/buddhichal/Buddhichal.hpp        | C++      |         69 |          0 |          3 |         72 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/checkers/Board.hpp               | C++      |         47 |         11 |         11 |         69 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/checkers/Engine.hpp              | C++      |         44 |         12 |         12 |         68 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/checkers/MainMenu.hpp            | C++      |         20 |          0 |          5 |         25 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/checkers/Move.hpp                | C++      |         60 |          4 |          3 |         67 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/checkers/Piece.hpp               | C++      |         83 |         10 |         12 |        105 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/checkers/Player.hpp              | C++      |         26 |          1 |          6 |         33 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/checkers/State.hpp               | C++      |         19 |          0 |          5 |         24 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/checkers/StateManager.hpp        | C++      |         25 |          1 |          5 |         31 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/checkers/assetsManager.hpp       | C++      |         52 |          5 |          8 |         65 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/checkers/checkers.hpp            | C++      |         14 |          0 |          3 |         17 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/checkers/computer.hpp            | C++      |         26 |          0 |          5 |         31 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/checkers/context.hpp             | C++      |        121 |         14 |         19 |        154 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/checkers/currClickedPiece.hpp    | C++      |         36 |          8 |          6 |         50 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/checkers/gameContext.hpp         | C++      |         43 |         17 |         10 |         70 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/checkers/gameover.hpp            | C++      |         20 |          0 |          3 |         23 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/checkers/mandatory.hpp           | C++      |         41 |         11 |          5 |         57 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/checkers/multiplayer-offline.hpp | C++      |         22 |          0 |          5 |         27 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/chess/Chess.hpp                  | C++      |          8 |          0 |          3 |         11 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/chess/boardstate.h               | C++      |         39 |          0 |         16 |         55 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/chess/def.h                      | C++      |         45 |          5 |         10 |         60 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/chess/eval.h                     | C++      |          7 |        474 |          3 |        484 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/include/chess/texture.h                  | C++      |          3 |          0 |          1 |          4 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/main.cpp                                 | C++      |          7 |          0 |          2 |          9 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/mainMenu.hpp                             | C++      |        158 |          4 |          8 |        170 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/backend.cpp            | C++      |        167 |          0 |          9 |        176 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/buddhichal.cpp         | C++      |         94 |          7 |          5 |        106 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/menu.cpp               | C++      |         86 |          0 |          3 |         89 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/minimax.cpp            | C++      |        218 |          8 |         16 |        242 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/move.cpp               | C++      |         81 |          3 |          4 |         88 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/processEvents.cpp      | C++      |         59 |          2 |          1 |         62 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/render.cpp             | C++      |        118 |          1 |         14 |        133 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/Engine.cpp               | C++      |        960 |        197 |         41 |      1,198 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/MainMenu.cpp             | C++      |         73 |          9 |          5 |         87 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/Piece.cpp                | C++      |         21 |          2 |          3 |         26 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/StateManager.cpp         | C++      |         49 |          2 |          7 |         58 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/checkers.cpp             | C++      |         28 |          7 |         10 |         45 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/computer.cpp             | C++      |        212 |         55 |         20 |        287 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/currClickedPiece.cpp     | C++      |        135 |         23 |          9 |        167 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/gameContext.cpp          | C++      |        165 |         23 |         16 |        204 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/gameover.cpp             | C++      |         44 |          1 |          6 |         51 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/mandatory.cpp            | C++      |        227 |         25 |         13 |        265 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/multiplayer-offline.cpp  | C++      |        138 |         27 |         14 |        179 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/boardstate.cpp              | C++      |         78 |          0 |          9 |         87 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/chess.cpp                   | C++      |         13 |         41 |          8 |         62 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/declare.cpp                 | C++      |         34 |          0 |          2 |         36 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/depthguess.cpp              | C++      |         34 |          0 |          5 |         39 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/diff.cpp                    | C++      |         40 |          1 |          7 |         48 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/display.cpp                 | C++      |        433 |         12 |         51 |        496 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/eval.cpp                    | C++      |        286 |          1 |        142 |        429 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/getarray.cpp                | C++      |          9 |          0 |          1 |         10 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/isattacked.cpp              | C++      |        165 |         19 |          8 |        192 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/ischeck.cpp                 | C++      |         20 |          1 |          3 |         24 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/ischeckedaftermove.cpp      | C++      |          5 |          0 |          2 |          7 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/makemove.cpp                | C++      |        107 |         12 |         23 |        142 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/minimaxinit.cpp             | C++      |         85 |         17 |         26 |        128 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/minmax.cpp                  | C++      |         74 |          3 |         30 |        107 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/move.cpp                    | C++      |        926 |          2 |        114 |      1,042 |
+| /run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/translatefen.cpp            | C++      |        248 |          3 |         29 |        280 |
+| Total                                                                                                    |          |      6,467 |      1,081 |        826 |      8,374 |
++----------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
