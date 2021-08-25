@@ -3,6 +3,7 @@
 ##### **Building Instructions**
 
 Dependencies: SFML 2.5.1 , cmake
+
 Install SFML as according to your machine.
 
 ##### **Using Cmake from commandline**
