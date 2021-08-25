@@ -1,5 +1,8 @@
 # BoardGames
 
+
+The final images of the game can be seen from [here](https://github.com/avisekksarma/BoardGames/tree/main/finalImages)
+
 ##### **Building Instructions**
 
 Dependencies: SFML 2.5.1 , cmake
@@ -16,4 +19,5 @@ $ cd build
 $ make
 $ ./BoardGames
 ```
+
 
