@@ -3,7 +3,7 @@
 #include <vector>
 #include "Piece.hpp"
 #include <iostream>
-using namespace std;
+
 
 class Move
 {
@@ -21,33 +21,33 @@ public:
     // displays the move in console
     void displayMove()
     {
-        cout << "=============Detail of a Move starts:=============" << endl;
-        cout << "Final Pos:" << endl;
+        std::cout << "=============Detail of a Move starts:=============" << std::endl;
+        std::cout << "Final Pos:" << std::endl;
         for (int i = 0; i < mFinalPos.size(); i++)
         {
-            cout << mFinalPos[i][0] << "," << mFinalPos[i][1] << "\t";
+            std::cout << mFinalPos[i][0] << "," << mFinalPos[i][1] << "\t";
         }
-        cout << endl;
-        cout << "Path: " << endl;
+        std::cout << std::endl;
+        std::cout << "Path: " << std::endl;
         for (int i = 0; i < mPath.size(); i++)
         {
             for (int j = 0; j < mPath[i].size(); j++)
             {
-                cout << mPath[i][j][0] << "," << mPath[i][j][1] << "  ";
+                std::cout << mPath[i][j][0] << "," << mPath[i][j][1] << "  ";
             }
-            cout << endl;
+            std::cout << std::endl;
         }
-        cout << endl;
-        cout << "Captured Pos: " << endl;
+        std::cout << std::endl;
+        std::cout << "Captured Pos: " << std::endl;
         for (int i = 0; i < mCapturedPos.size(); i++)
         {
             for (int j = 0; j < mCapturedPos[i].size(); j++)
             {
-                cout << mCapturedPos[i][j][0] << "," << mPath[i][j][1] << "  ";
+                std::cout << mCapturedPos[i][j][0] << "," << mPath[i][j][1] << "  ";
             }
-            cout << endl;
+            std::cout << std::endl;
         }
-        cout << "=============Detail of a Move ends:=============" << endl;
+        std::cout << "=============Detail of a Move ends:=============" << std::endl;
         ;
     }
     enum MoveType

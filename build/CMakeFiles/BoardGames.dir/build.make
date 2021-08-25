@@ -83,10 +83,24 @@ CMakeFiles/BoardGames.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BoardGames.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/main.cpp" -o CMakeFiles/BoardGames.dir/main.cpp.s
 
+CMakeFiles/BoardGames.dir/source/buddhichal/backend.cpp.o: CMakeFiles/BoardGames.dir/flags.make
+CMakeFiles/BoardGames.dir/source/buddhichal/backend.cpp.o: ../source/buddhichal/backend.cpp
+CMakeFiles/BoardGames.dir/source/buddhichal/backend.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BoardGames.dir/source/buddhichal/backend.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/buddhichal/backend.cpp.o -MF CMakeFiles/BoardGames.dir/source/buddhichal/backend.cpp.o.d -o CMakeFiles/BoardGames.dir/source/buddhichal/backend.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/backend.cpp"
+
+CMakeFiles/BoardGames.dir/source/buddhichal/backend.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BoardGames.dir/source/buddhichal/backend.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/backend.cpp" > CMakeFiles/BoardGames.dir/source/buddhichal/backend.cpp.i
+
+CMakeFiles/BoardGames.dir/source/buddhichal/backend.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BoardGames.dir/source/buddhichal/backend.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/backend.cpp" -o CMakeFiles/BoardGames.dir/source/buddhichal/backend.cpp.s
+
 CMakeFiles/BoardGames.dir/source/buddhichal/buddhichal.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/buddhichal/buddhichal.cpp.o: ../source/buddhichal/buddhichal.cpp
 CMakeFiles/BoardGames.dir/source/buddhichal/buddhichal.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BoardGames.dir/source/buddhichal/buddhichal.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BoardGames.dir/source/buddhichal/buddhichal.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/buddhichal/buddhichal.cpp.o -MF CMakeFiles/BoardGames.dir/source/buddhichal/buddhichal.cpp.o.d -o CMakeFiles/BoardGames.dir/source/buddhichal/buddhichal.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/buddhichal.cpp"
 
 CMakeFiles/BoardGames.dir/source/buddhichal/buddhichal.cpp.i: cmake_force
@@ -97,10 +111,80 @@ CMakeFiles/BoardGames.dir/source/buddhichal/buddhichal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BoardGames.dir/source/buddhichal/buddhichal.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/buddhichal.cpp" -o CMakeFiles/BoardGames.dir/source/buddhichal/buddhichal.cpp.s
 
+CMakeFiles/BoardGames.dir/source/buddhichal/menu.cpp.o: CMakeFiles/BoardGames.dir/flags.make
+CMakeFiles/BoardGames.dir/source/buddhichal/menu.cpp.o: ../source/buddhichal/menu.cpp
+CMakeFiles/BoardGames.dir/source/buddhichal/menu.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BoardGames.dir/source/buddhichal/menu.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/buddhichal/menu.cpp.o -MF CMakeFiles/BoardGames.dir/source/buddhichal/menu.cpp.o.d -o CMakeFiles/BoardGames.dir/source/buddhichal/menu.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/menu.cpp"
+
+CMakeFiles/BoardGames.dir/source/buddhichal/menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BoardGames.dir/source/buddhichal/menu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/menu.cpp" > CMakeFiles/BoardGames.dir/source/buddhichal/menu.cpp.i
+
+CMakeFiles/BoardGames.dir/source/buddhichal/menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BoardGames.dir/source/buddhichal/menu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/menu.cpp" -o CMakeFiles/BoardGames.dir/source/buddhichal/menu.cpp.s
+
+CMakeFiles/BoardGames.dir/source/buddhichal/minimax.cpp.o: CMakeFiles/BoardGames.dir/flags.make
+CMakeFiles/BoardGames.dir/source/buddhichal/minimax.cpp.o: ../source/buddhichal/minimax.cpp
+CMakeFiles/BoardGames.dir/source/buddhichal/minimax.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BoardGames.dir/source/buddhichal/minimax.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/buddhichal/minimax.cpp.o -MF CMakeFiles/BoardGames.dir/source/buddhichal/minimax.cpp.o.d -o CMakeFiles/BoardGames.dir/source/buddhichal/minimax.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/minimax.cpp"
+
+CMakeFiles/BoardGames.dir/source/buddhichal/minimax.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BoardGames.dir/source/buddhichal/minimax.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/minimax.cpp" > CMakeFiles/BoardGames.dir/source/buddhichal/minimax.cpp.i
+
+CMakeFiles/BoardGames.dir/source/buddhichal/minimax.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BoardGames.dir/source/buddhichal/minimax.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/minimax.cpp" -o CMakeFiles/BoardGames.dir/source/buddhichal/minimax.cpp.s
+
+CMakeFiles/BoardGames.dir/source/buddhichal/move.cpp.o: CMakeFiles/BoardGames.dir/flags.make
+CMakeFiles/BoardGames.dir/source/buddhichal/move.cpp.o: ../source/buddhichal/move.cpp
+CMakeFiles/BoardGames.dir/source/buddhichal/move.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/BoardGames.dir/source/buddhichal/move.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/buddhichal/move.cpp.o -MF CMakeFiles/BoardGames.dir/source/buddhichal/move.cpp.o.d -o CMakeFiles/BoardGames.dir/source/buddhichal/move.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/move.cpp"
+
+CMakeFiles/BoardGames.dir/source/buddhichal/move.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BoardGames.dir/source/buddhichal/move.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/move.cpp" > CMakeFiles/BoardGames.dir/source/buddhichal/move.cpp.i
+
+CMakeFiles/BoardGames.dir/source/buddhichal/move.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BoardGames.dir/source/buddhichal/move.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/move.cpp" -o CMakeFiles/BoardGames.dir/source/buddhichal/move.cpp.s
+
+CMakeFiles/BoardGames.dir/source/buddhichal/processEvents.cpp.o: CMakeFiles/BoardGames.dir/flags.make
+CMakeFiles/BoardGames.dir/source/buddhichal/processEvents.cpp.o: ../source/buddhichal/processEvents.cpp
+CMakeFiles/BoardGames.dir/source/buddhichal/processEvents.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/BoardGames.dir/source/buddhichal/processEvents.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/buddhichal/processEvents.cpp.o -MF CMakeFiles/BoardGames.dir/source/buddhichal/processEvents.cpp.o.d -o CMakeFiles/BoardGames.dir/source/buddhichal/processEvents.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/processEvents.cpp"
+
+CMakeFiles/BoardGames.dir/source/buddhichal/processEvents.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BoardGames.dir/source/buddhichal/processEvents.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/processEvents.cpp" > CMakeFiles/BoardGames.dir/source/buddhichal/processEvents.cpp.i
+
+CMakeFiles/BoardGames.dir/source/buddhichal/processEvents.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BoardGames.dir/source/buddhichal/processEvents.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/processEvents.cpp" -o CMakeFiles/BoardGames.dir/source/buddhichal/processEvents.cpp.s
+
+CMakeFiles/BoardGames.dir/source/buddhichal/render.cpp.o: CMakeFiles/BoardGames.dir/flags.make
+CMakeFiles/BoardGames.dir/source/buddhichal/render.cpp.o: ../source/buddhichal/render.cpp
+CMakeFiles/BoardGames.dir/source/buddhichal/render.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/BoardGames.dir/source/buddhichal/render.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/buddhichal/render.cpp.o -MF CMakeFiles/BoardGames.dir/source/buddhichal/render.cpp.o.d -o CMakeFiles/BoardGames.dir/source/buddhichal/render.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/render.cpp"
+
+CMakeFiles/BoardGames.dir/source/buddhichal/render.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BoardGames.dir/source/buddhichal/render.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/render.cpp" > CMakeFiles/BoardGames.dir/source/buddhichal/render.cpp.i
+
+CMakeFiles/BoardGames.dir/source/buddhichal/render.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BoardGames.dir/source/buddhichal/render.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/render.cpp" -o CMakeFiles/BoardGames.dir/source/buddhichal/render.cpp.s
+
 CMakeFiles/BoardGames.dir/source/checkers/Engine.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/checkers/Engine.cpp.o: ../source/checkers/Engine.cpp
 CMakeFiles/BoardGames.dir/source/checkers/Engine.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/BoardGames.dir/source/checkers/Engine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/BoardGames.dir/source/checkers/Engine.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/checkers/Engine.cpp.o -MF CMakeFiles/BoardGames.dir/source/checkers/Engine.cpp.o.d -o CMakeFiles/BoardGames.dir/source/checkers/Engine.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/Engine.cpp"
 
 CMakeFiles/BoardGames.dir/source/checkers/Engine.cpp.i: cmake_force
@@ -114,7 +198,7 @@ CMakeFiles/BoardGames.dir/source/checkers/Engine.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/checkers/MainMenu.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/checkers/MainMenu.cpp.o: ../source/checkers/MainMenu.cpp
 CMakeFiles/BoardGames.dir/source/checkers/MainMenu.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/BoardGames.dir/source/checkers/MainMenu.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/BoardGames.dir/source/checkers/MainMenu.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/checkers/MainMenu.cpp.o -MF CMakeFiles/BoardGames.dir/source/checkers/MainMenu.cpp.o.d -o CMakeFiles/BoardGames.dir/source/checkers/MainMenu.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/MainMenu.cpp"
 
 CMakeFiles/BoardGames.dir/source/checkers/MainMenu.cpp.i: cmake_force
@@ -128,7 +212,7 @@ CMakeFiles/BoardGames.dir/source/checkers/MainMenu.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/checkers/Piece.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/checkers/Piece.cpp.o: ../source/checkers/Piece.cpp
 CMakeFiles/BoardGames.dir/source/checkers/Piece.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/BoardGames.dir/source/checkers/Piece.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/BoardGames.dir/source/checkers/Piece.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/checkers/Piece.cpp.o -MF CMakeFiles/BoardGames.dir/source/checkers/Piece.cpp.o.d -o CMakeFiles/BoardGames.dir/source/checkers/Piece.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/Piece.cpp"
 
 CMakeFiles/BoardGames.dir/source/checkers/Piece.cpp.i: cmake_force
@@ -142,7 +226,7 @@ CMakeFiles/BoardGames.dir/source/checkers/Piece.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/checkers/StateManager.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/checkers/StateManager.cpp.o: ../source/checkers/StateManager.cpp
 CMakeFiles/BoardGames.dir/source/checkers/StateManager.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/BoardGames.dir/source/checkers/StateManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/BoardGames.dir/source/checkers/StateManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/checkers/StateManager.cpp.o -MF CMakeFiles/BoardGames.dir/source/checkers/StateManager.cpp.o.d -o CMakeFiles/BoardGames.dir/source/checkers/StateManager.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/StateManager.cpp"
 
 CMakeFiles/BoardGames.dir/source/checkers/StateManager.cpp.i: cmake_force
@@ -156,7 +240,7 @@ CMakeFiles/BoardGames.dir/source/checkers/StateManager.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/checkers/checkers.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/checkers/checkers.cpp.o: ../source/checkers/checkers.cpp
 CMakeFiles/BoardGames.dir/source/checkers/checkers.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/BoardGames.dir/source/checkers/checkers.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/BoardGames.dir/source/checkers/checkers.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/checkers/checkers.cpp.o -MF CMakeFiles/BoardGames.dir/source/checkers/checkers.cpp.o.d -o CMakeFiles/BoardGames.dir/source/checkers/checkers.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/checkers.cpp"
 
 CMakeFiles/BoardGames.dir/source/checkers/checkers.cpp.i: cmake_force
@@ -170,7 +254,7 @@ CMakeFiles/BoardGames.dir/source/checkers/checkers.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/checkers/computer.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/checkers/computer.cpp.o: ../source/checkers/computer.cpp
 CMakeFiles/BoardGames.dir/source/checkers/computer.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/BoardGames.dir/source/checkers/computer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/BoardGames.dir/source/checkers/computer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/checkers/computer.cpp.o -MF CMakeFiles/BoardGames.dir/source/checkers/computer.cpp.o.d -o CMakeFiles/BoardGames.dir/source/checkers/computer.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/computer.cpp"
 
 CMakeFiles/BoardGames.dir/source/checkers/computer.cpp.i: cmake_force
@@ -184,7 +268,7 @@ CMakeFiles/BoardGames.dir/source/checkers/computer.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/checkers/currClickedPiece.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/checkers/currClickedPiece.cpp.o: ../source/checkers/currClickedPiece.cpp
 CMakeFiles/BoardGames.dir/source/checkers/currClickedPiece.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/BoardGames.dir/source/checkers/currClickedPiece.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/BoardGames.dir/source/checkers/currClickedPiece.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/checkers/currClickedPiece.cpp.o -MF CMakeFiles/BoardGames.dir/source/checkers/currClickedPiece.cpp.o.d -o CMakeFiles/BoardGames.dir/source/checkers/currClickedPiece.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/currClickedPiece.cpp"
 
 CMakeFiles/BoardGames.dir/source/checkers/currClickedPiece.cpp.i: cmake_force
@@ -198,7 +282,7 @@ CMakeFiles/BoardGames.dir/source/checkers/currClickedPiece.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/checkers/gameContext.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/checkers/gameContext.cpp.o: ../source/checkers/gameContext.cpp
 CMakeFiles/BoardGames.dir/source/checkers/gameContext.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/BoardGames.dir/source/checkers/gameContext.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/BoardGames.dir/source/checkers/gameContext.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/checkers/gameContext.cpp.o -MF CMakeFiles/BoardGames.dir/source/checkers/gameContext.cpp.o.d -o CMakeFiles/BoardGames.dir/source/checkers/gameContext.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/gameContext.cpp"
 
 CMakeFiles/BoardGames.dir/source/checkers/gameContext.cpp.i: cmake_force
@@ -212,7 +296,7 @@ CMakeFiles/BoardGames.dir/source/checkers/gameContext.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/checkers/gameover.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/checkers/gameover.cpp.o: ../source/checkers/gameover.cpp
 CMakeFiles/BoardGames.dir/source/checkers/gameover.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/BoardGames.dir/source/checkers/gameover.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/BoardGames.dir/source/checkers/gameover.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/checkers/gameover.cpp.o -MF CMakeFiles/BoardGames.dir/source/checkers/gameover.cpp.o.d -o CMakeFiles/BoardGames.dir/source/checkers/gameover.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/gameover.cpp"
 
 CMakeFiles/BoardGames.dir/source/checkers/gameover.cpp.i: cmake_force
@@ -226,7 +310,7 @@ CMakeFiles/BoardGames.dir/source/checkers/gameover.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/checkers/mandatory.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/checkers/mandatory.cpp.o: ../source/checkers/mandatory.cpp
 CMakeFiles/BoardGames.dir/source/checkers/mandatory.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/BoardGames.dir/source/checkers/mandatory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/BoardGames.dir/source/checkers/mandatory.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/checkers/mandatory.cpp.o -MF CMakeFiles/BoardGames.dir/source/checkers/mandatory.cpp.o.d -o CMakeFiles/BoardGames.dir/source/checkers/mandatory.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/mandatory.cpp"
 
 CMakeFiles/BoardGames.dir/source/checkers/mandatory.cpp.i: cmake_force
@@ -240,7 +324,7 @@ CMakeFiles/BoardGames.dir/source/checkers/mandatory.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/checkers/multiplayer-offline.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/checkers/multiplayer-offline.cpp.o: ../source/checkers/multiplayer-offline.cpp
 CMakeFiles/BoardGames.dir/source/checkers/multiplayer-offline.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/BoardGames.dir/source/checkers/multiplayer-offline.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/BoardGames.dir/source/checkers/multiplayer-offline.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/checkers/multiplayer-offline.cpp.o -MF CMakeFiles/BoardGames.dir/source/checkers/multiplayer-offline.cpp.o.d -o CMakeFiles/BoardGames.dir/source/checkers/multiplayer-offline.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/multiplayer-offline.cpp"
 
 CMakeFiles/BoardGames.dir/source/checkers/multiplayer-offline.cpp.i: cmake_force
@@ -254,7 +338,7 @@ CMakeFiles/BoardGames.dir/source/checkers/multiplayer-offline.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/chess/boardstate.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/chess/boardstate.cpp.o: ../source/chess/boardstate.cpp
 CMakeFiles/BoardGames.dir/source/chess/boardstate.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/boardstate.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/boardstate.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/chess/boardstate.cpp.o -MF CMakeFiles/BoardGames.dir/source/chess/boardstate.cpp.o.d -o CMakeFiles/BoardGames.dir/source/chess/boardstate.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/boardstate.cpp"
 
 CMakeFiles/BoardGames.dir/source/chess/boardstate.cpp.i: cmake_force
@@ -268,7 +352,7 @@ CMakeFiles/BoardGames.dir/source/chess/boardstate.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/chess/chess.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/chess/chess.cpp.o: ../source/chess/chess.cpp
 CMakeFiles/BoardGames.dir/source/chess/chess.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/chess.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/chess.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/chess/chess.cpp.o -MF CMakeFiles/BoardGames.dir/source/chess/chess.cpp.o.d -o CMakeFiles/BoardGames.dir/source/chess/chess.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/chess.cpp"
 
 CMakeFiles/BoardGames.dir/source/chess/chess.cpp.i: cmake_force
@@ -282,7 +366,7 @@ CMakeFiles/BoardGames.dir/source/chess/chess.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/chess/declare.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/chess/declare.cpp.o: ../source/chess/declare.cpp
 CMakeFiles/BoardGames.dir/source/chess/declare.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/declare.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/declare.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/chess/declare.cpp.o -MF CMakeFiles/BoardGames.dir/source/chess/declare.cpp.o.d -o CMakeFiles/BoardGames.dir/source/chess/declare.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/declare.cpp"
 
 CMakeFiles/BoardGames.dir/source/chess/declare.cpp.i: cmake_force
@@ -296,7 +380,7 @@ CMakeFiles/BoardGames.dir/source/chess/declare.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/chess/depthguess.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/chess/depthguess.cpp.o: ../source/chess/depthguess.cpp
 CMakeFiles/BoardGames.dir/source/chess/depthguess.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/depthguess.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/depthguess.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/chess/depthguess.cpp.o -MF CMakeFiles/BoardGames.dir/source/chess/depthguess.cpp.o.d -o CMakeFiles/BoardGames.dir/source/chess/depthguess.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/depthguess.cpp"
 
 CMakeFiles/BoardGames.dir/source/chess/depthguess.cpp.i: cmake_force
@@ -310,7 +394,7 @@ CMakeFiles/BoardGames.dir/source/chess/depthguess.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/chess/diff.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/chess/diff.cpp.o: ../source/chess/diff.cpp
 CMakeFiles/BoardGames.dir/source/chess/diff.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/diff.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/diff.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/chess/diff.cpp.o -MF CMakeFiles/BoardGames.dir/source/chess/diff.cpp.o.d -o CMakeFiles/BoardGames.dir/source/chess/diff.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/diff.cpp"
 
 CMakeFiles/BoardGames.dir/source/chess/diff.cpp.i: cmake_force
@@ -324,7 +408,7 @@ CMakeFiles/BoardGames.dir/source/chess/diff.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/chess/display.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/chess/display.cpp.o: ../source/chess/display.cpp
 CMakeFiles/BoardGames.dir/source/chess/display.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/display.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/display.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/chess/display.cpp.o -MF CMakeFiles/BoardGames.dir/source/chess/display.cpp.o.d -o CMakeFiles/BoardGames.dir/source/chess/display.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/display.cpp"
 
 CMakeFiles/BoardGames.dir/source/chess/display.cpp.i: cmake_force
@@ -338,7 +422,7 @@ CMakeFiles/BoardGames.dir/source/chess/display.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/chess/eval.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/chess/eval.cpp.o: ../source/chess/eval.cpp
 CMakeFiles/BoardGames.dir/source/chess/eval.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/eval.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/eval.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/chess/eval.cpp.o -MF CMakeFiles/BoardGames.dir/source/chess/eval.cpp.o.d -o CMakeFiles/BoardGames.dir/source/chess/eval.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/eval.cpp"
 
 CMakeFiles/BoardGames.dir/source/chess/eval.cpp.i: cmake_force
@@ -352,7 +436,7 @@ CMakeFiles/BoardGames.dir/source/chess/eval.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/chess/getarray.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/chess/getarray.cpp.o: ../source/chess/getarray.cpp
 CMakeFiles/BoardGames.dir/source/chess/getarray.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/getarray.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/getarray.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/chess/getarray.cpp.o -MF CMakeFiles/BoardGames.dir/source/chess/getarray.cpp.o.d -o CMakeFiles/BoardGames.dir/source/chess/getarray.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/getarray.cpp"
 
 CMakeFiles/BoardGames.dir/source/chess/getarray.cpp.i: cmake_force
@@ -366,7 +450,7 @@ CMakeFiles/BoardGames.dir/source/chess/getarray.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/chess/isattacked.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/chess/isattacked.cpp.o: ../source/chess/isattacked.cpp
 CMakeFiles/BoardGames.dir/source/chess/isattacked.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/isattacked.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/isattacked.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/chess/isattacked.cpp.o -MF CMakeFiles/BoardGames.dir/source/chess/isattacked.cpp.o.d -o CMakeFiles/BoardGames.dir/source/chess/isattacked.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/isattacked.cpp"
 
 CMakeFiles/BoardGames.dir/source/chess/isattacked.cpp.i: cmake_force
@@ -380,7 +464,7 @@ CMakeFiles/BoardGames.dir/source/chess/isattacked.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/chess/ischeck.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/chess/ischeck.cpp.o: ../source/chess/ischeck.cpp
 CMakeFiles/BoardGames.dir/source/chess/ischeck.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/ischeck.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/ischeck.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/chess/ischeck.cpp.o -MF CMakeFiles/BoardGames.dir/source/chess/ischeck.cpp.o.d -o CMakeFiles/BoardGames.dir/source/chess/ischeck.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/ischeck.cpp"
 
 CMakeFiles/BoardGames.dir/source/chess/ischeck.cpp.i: cmake_force
@@ -394,7 +478,7 @@ CMakeFiles/BoardGames.dir/source/chess/ischeck.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/chess/ischeckedaftermove.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/chess/ischeckedaftermove.cpp.o: ../source/chess/ischeckedaftermove.cpp
 CMakeFiles/BoardGames.dir/source/chess/ischeckedaftermove.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/ischeckedaftermove.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/ischeckedaftermove.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/chess/ischeckedaftermove.cpp.o -MF CMakeFiles/BoardGames.dir/source/chess/ischeckedaftermove.cpp.o.d -o CMakeFiles/BoardGames.dir/source/chess/ischeckedaftermove.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/ischeckedaftermove.cpp"
 
 CMakeFiles/BoardGames.dir/source/chess/ischeckedaftermove.cpp.i: cmake_force
@@ -408,7 +492,7 @@ CMakeFiles/BoardGames.dir/source/chess/ischeckedaftermove.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/chess/makemove.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/chess/makemove.cpp.o: ../source/chess/makemove.cpp
 CMakeFiles/BoardGames.dir/source/chess/makemove.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/makemove.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/makemove.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/chess/makemove.cpp.o -MF CMakeFiles/BoardGames.dir/source/chess/makemove.cpp.o.d -o CMakeFiles/BoardGames.dir/source/chess/makemove.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/makemove.cpp"
 
 CMakeFiles/BoardGames.dir/source/chess/makemove.cpp.i: cmake_force
@@ -422,7 +506,7 @@ CMakeFiles/BoardGames.dir/source/chess/makemove.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/chess/minimaxinit.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/chess/minimaxinit.cpp.o: ../source/chess/minimaxinit.cpp
 CMakeFiles/BoardGames.dir/source/chess/minimaxinit.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/minimaxinit.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/minimaxinit.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/chess/minimaxinit.cpp.o -MF CMakeFiles/BoardGames.dir/source/chess/minimaxinit.cpp.o.d -o CMakeFiles/BoardGames.dir/source/chess/minimaxinit.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/minimaxinit.cpp"
 
 CMakeFiles/BoardGames.dir/source/chess/minimaxinit.cpp.i: cmake_force
@@ -436,7 +520,7 @@ CMakeFiles/BoardGames.dir/source/chess/minimaxinit.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/chess/minmax.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/chess/minmax.cpp.o: ../source/chess/minmax.cpp
 CMakeFiles/BoardGames.dir/source/chess/minmax.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/minmax.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/minmax.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/chess/minmax.cpp.o -MF CMakeFiles/BoardGames.dir/source/chess/minmax.cpp.o.d -o CMakeFiles/BoardGames.dir/source/chess/minmax.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/minmax.cpp"
 
 CMakeFiles/BoardGames.dir/source/chess/minmax.cpp.i: cmake_force
@@ -450,7 +534,7 @@ CMakeFiles/BoardGames.dir/source/chess/minmax.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/chess/move.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/chess/move.cpp.o: ../source/chess/move.cpp
 CMakeFiles/BoardGames.dir/source/chess/move.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/move.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/move.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/chess/move.cpp.o -MF CMakeFiles/BoardGames.dir/source/chess/move.cpp.o.d -o CMakeFiles/BoardGames.dir/source/chess/move.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/move.cpp"
 
 CMakeFiles/BoardGames.dir/source/chess/move.cpp.i: cmake_force
@@ -464,7 +548,7 @@ CMakeFiles/BoardGames.dir/source/chess/move.cpp.s: cmake_force
 CMakeFiles/BoardGames.dir/source/chess/translatefen.cpp.o: CMakeFiles/BoardGames.dir/flags.make
 CMakeFiles/BoardGames.dir/source/chess/translatefen.cpp.o: ../source/chess/translatefen.cpp
 CMakeFiles/BoardGames.dir/source/chess/translatefen.cpp.o: CMakeFiles/BoardGames.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/translatefen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/BoardGames.dir/source/chess/translatefen.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BoardGames.dir/source/chess/translatefen.cpp.o -MF CMakeFiles/BoardGames.dir/source/chess/translatefen.cpp.o.d -o CMakeFiles/BoardGames.dir/source/chess/translatefen.cpp.o -c "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/chess/translatefen.cpp"
 
 CMakeFiles/BoardGames.dir/source/chess/translatefen.cpp.i: cmake_force
@@ -478,7 +562,13 @@ CMakeFiles/BoardGames.dir/source/chess/translatefen.cpp.s: cmake_force
 # Object files for target BoardGames
 BoardGames_OBJECTS = \
 "CMakeFiles/BoardGames.dir/main.cpp.o" \
+"CMakeFiles/BoardGames.dir/source/buddhichal/backend.cpp.o" \
 "CMakeFiles/BoardGames.dir/source/buddhichal/buddhichal.cpp.o" \
+"CMakeFiles/BoardGames.dir/source/buddhichal/menu.cpp.o" \
+"CMakeFiles/BoardGames.dir/source/buddhichal/minimax.cpp.o" \
+"CMakeFiles/BoardGames.dir/source/buddhichal/move.cpp.o" \
+"CMakeFiles/BoardGames.dir/source/buddhichal/processEvents.cpp.o" \
+"CMakeFiles/BoardGames.dir/source/buddhichal/render.cpp.o" \
 "CMakeFiles/BoardGames.dir/source/checkers/Engine.cpp.o" \
 "CMakeFiles/BoardGames.dir/source/checkers/MainMenu.cpp.o" \
 "CMakeFiles/BoardGames.dir/source/checkers/Piece.cpp.o" \
@@ -511,7 +601,13 @@ BoardGames_OBJECTS = \
 BoardGames_EXTERNAL_OBJECTS =
 
 BoardGames: CMakeFiles/BoardGames.dir/main.cpp.o
+BoardGames: CMakeFiles/BoardGames.dir/source/buddhichal/backend.cpp.o
 BoardGames: CMakeFiles/BoardGames.dir/source/buddhichal/buddhichal.cpp.o
+BoardGames: CMakeFiles/BoardGames.dir/source/buddhichal/menu.cpp.o
+BoardGames: CMakeFiles/BoardGames.dir/source/buddhichal/minimax.cpp.o
+BoardGames: CMakeFiles/BoardGames.dir/source/buddhichal/move.cpp.o
+BoardGames: CMakeFiles/BoardGames.dir/source/buddhichal/processEvents.cpp.o
+BoardGames: CMakeFiles/BoardGames.dir/source/buddhichal/render.cpp.o
 BoardGames: CMakeFiles/BoardGames.dir/source/checkers/Engine.cpp.o
 BoardGames: CMakeFiles/BoardGames.dir/source/checkers/MainMenu.cpp.o
 BoardGames: CMakeFiles/BoardGames.dir/source/checkers/Piece.cpp.o
@@ -541,7 +637,7 @@ BoardGames: CMakeFiles/BoardGames.dir/source/chess/move.cpp.o
 BoardGames: CMakeFiles/BoardGames.dir/source/chess/translatefen.cpp.o
 BoardGames: CMakeFiles/BoardGames.dir/build.make
 BoardGames: CMakeFiles/BoardGames.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable BoardGames"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX executable BoardGames"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BoardGames.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

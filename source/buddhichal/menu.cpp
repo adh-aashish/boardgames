@@ -1,20 +1,22 @@
 #include "../../include/buddhichal/Buddhichal.hpp"
+#include "../../mainMenu.hpp"
 #include <string>
+#include <iostream>
 
 void Buddhichal::menu()
 {
   std::string btnValues[3] = {"Single Player", "MultiPlayer", "Main Menu"};
-  for(int i=0; i<3; i++)
+  for (int i = 0; i < 3; i++)
   {
     option[i].setFont(font);
     option[i].setString(btnValues[i]);
-    option[i].setCharacterSize(30);
+    option[i].setCharacterSize(40);
     option[i].setFillColor(sf::Color::White);
     option[i].setOrigin(option[i].getGlobalBounds().width / 2.0f, option[i].getGlobalBounds().height / 2.0f);
-    option[i].setPosition(window.getSize().x / 2.0f, 200 + i * 120);
+    option[i].setPosition(window.getSize().x / 2.0f, 400 + i * 120);
   }
 
-  while(!choice)
+  while (!choice)
   {
     sf::Event event;
     while (window.pollEvent(event))
@@ -43,7 +45,10 @@ void Buddhichal::menu()
           }
           else if (option[2].getGlobalBounds().contains(posX, posY))
           {
-            choice = true;
+            choice = false;
+            RunGame game;
+            window.close();
+            game.runGame();
           }
         }
         break;
@@ -81,4 +86,3 @@ void Buddhichal::menu()
     render(true);
   }
 }
-

@@ -20,5 +20,5 @@ private:
     std::shared_ptr<Context> mContext;
     sf::Sprite mMenuBg;
     sf::Text mTitle;
-    Button mButton[2];
+    Button mButton[3];
 };

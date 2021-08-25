@@ -9,7 +9,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/main.cpp" "CMakeFiles/BoardGames.dir/main.cpp.o" "gcc" "CMakeFiles/BoardGames.dir/main.cpp.o.d"
+  "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/backend.cpp" "CMakeFiles/BoardGames.dir/source/buddhichal/backend.cpp.o" "gcc" "CMakeFiles/BoardGames.dir/source/buddhichal/backend.cpp.o.d"
   "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/buddhichal.cpp" "CMakeFiles/BoardGames.dir/source/buddhichal/buddhichal.cpp.o" "gcc" "CMakeFiles/BoardGames.dir/source/buddhichal/buddhichal.cpp.o.d"
+  "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/menu.cpp" "CMakeFiles/BoardGames.dir/source/buddhichal/menu.cpp.o" "gcc" "CMakeFiles/BoardGames.dir/source/buddhichal/menu.cpp.o.d"
+  "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/minimax.cpp" "CMakeFiles/BoardGames.dir/source/buddhichal/minimax.cpp.o" "gcc" "CMakeFiles/BoardGames.dir/source/buddhichal/minimax.cpp.o.d"
+  "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/move.cpp" "CMakeFiles/BoardGames.dir/source/buddhichal/move.cpp.o" "gcc" "CMakeFiles/BoardGames.dir/source/buddhichal/move.cpp.o.d"
+  "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/processEvents.cpp" "CMakeFiles/BoardGames.dir/source/buddhichal/processEvents.cpp.o" "gcc" "CMakeFiles/BoardGames.dir/source/buddhichal/processEvents.cpp.o.d"
+  "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/buddhichal/render.cpp" "CMakeFiles/BoardGames.dir/source/buddhichal/render.cpp.o" "gcc" "CMakeFiles/BoardGames.dir/source/buddhichal/render.cpp.o.d"
   "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/Engine.cpp" "CMakeFiles/BoardGames.dir/source/checkers/Engine.cpp.o" "gcc" "CMakeFiles/BoardGames.dir/source/checkers/Engine.cpp.o.d"
   "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/MainMenu.cpp" "CMakeFiles/BoardGames.dir/source/checkers/MainMenu.cpp.o" "gcc" "CMakeFiles/BoardGames.dir/source/checkers/MainMenu.cpp.o.d"
   "/run/media/abhishek/linux-a/C++ projects/OOP_Project/BoardGames/source/checkers/Piece.cpp" "CMakeFiles/BoardGames.dir/source/checkers/Piece.cpp.o" "gcc" "CMakeFiles/BoardGames.dir/source/checkers/Piece.cpp.o.d"

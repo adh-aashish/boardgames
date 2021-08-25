@@ -1,12 +1,13 @@
 #include "../../include/checkers/MainMenu.hpp"
+#include "../../mainMenu.hpp"
 #include "../../include/checkers/multiplayer-offline.hpp"
 #include "../../include/checkers/computer.hpp"
 
 MainMenu::MainMenu(std::shared_ptr<Context> &context) : mContext(context)
 {
     // creation of buttons starts
-    std::string btnText[2] = {"Single Player", "Multiplayer"};
-    for (int i = 0; i < 2; i++)
+    std::string btnText[3] = {"Single Player", "Multiplayer", "Main Menu"};
+    for (int i = 0; i < 3; i++)
     {
         mButton[i].create(this, sf::Vector2f(270, 70), btnText[i], sf::Vector2f(mContext->mWindow->getSize().x / 2.0f, 300 + i * 92));
     }
@@ -46,13 +47,20 @@ void MainMenu::processEvents()
         {
             if (mContext->isThisButtonPressed(mButton[0].button.getGlobalBounds(), event.mouseButton))
             {
-                cout << "Single player pressed" << endl;
+                std::cout << "Single player pressed" << std::endl;
                 mContext->mStates->add(std::make_unique<Computer>(mContext), true);
             }
             else if (mContext->isThisButtonPressed(mButton[1].button.getGlobalBounds(), event.mouseButton))
             {
-                cout << "Multiplayer pressed" << endl;
+                std::cout << "Multiplayer pressed" << std::endl;
                 mContext->mStates->add(std::make_unique<Multiplayer>(mContext), true);
+            }
+            else if (mContext->isThisButtonPressed(mButton[2].button.getGlobalBounds(), event.mouseButton))
+            {
+                std::cout << "MainMenu pressed" << std::endl;
+                RunGame game;
+                mContext->mWindow->close();
+                game.runGame();
             }
         }
     }
@@ -66,7 +74,7 @@ void MainMenu::render()
     mContext->mWindow->draw(mMenuBg);
     mContext->mWindow->draw(mTitle);
     //FIXME: magic number place
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i < 3; i++)
     {
         mContext->mWindow->draw(mButton[i]);
     }

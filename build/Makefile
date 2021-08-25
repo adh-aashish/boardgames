@@ -153,6 +153,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoardGames.dir/build.make CMakeFiles/BoardGames.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+source/buddhichal/backend.o: source/buddhichal/backend.cpp.o
+.PHONY : source/buddhichal/backend.o
+
+# target to build an object file
+source/buddhichal/backend.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoardGames.dir/build.make CMakeFiles/BoardGames.dir/source/buddhichal/backend.cpp.o
+.PHONY : source/buddhichal/backend.cpp.o
+
+source/buddhichal/backend.i: source/buddhichal/backend.cpp.i
+.PHONY : source/buddhichal/backend.i
+
+# target to preprocess a source file
+source/buddhichal/backend.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoardGames.dir/build.make CMakeFiles/BoardGames.dir/source/buddhichal/backend.cpp.i
+.PHONY : source/buddhichal/backend.cpp.i
+
+source/buddhichal/backend.s: source/buddhichal/backend.cpp.s
+.PHONY : source/buddhichal/backend.s
+
+# target to generate assembly for a file
+source/buddhichal/backend.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoardGames.dir/build.make CMakeFiles/BoardGames.dir/source/buddhichal/backend.cpp.s
+.PHONY : source/buddhichal/backend.cpp.s
+
 source/buddhichal/buddhichal.o: source/buddhichal/buddhichal.cpp.o
 .PHONY : source/buddhichal/buddhichal.o
 
@@ -176,6 +200,126 @@ source/buddhichal/buddhichal.s: source/buddhichal/buddhichal.cpp.s
 source/buddhichal/buddhichal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoardGames.dir/build.make CMakeFiles/BoardGames.dir/source/buddhichal/buddhichal.cpp.s
 .PHONY : source/buddhichal/buddhichal.cpp.s
+
+source/buddhichal/menu.o: source/buddhichal/menu.cpp.o
+.PHONY : source/buddhichal/menu.o
+
+# target to build an object file
+source/buddhichal/menu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoardGames.dir/build.make CMakeFiles/BoardGames.dir/source/buddhichal/menu.cpp.o
+.PHONY : source/buddhichal/menu.cpp.o
+
+source/buddhichal/menu.i: source/buddhichal/menu.cpp.i
+.PHONY : source/buddhichal/menu.i
+
+# target to preprocess a source file
+source/buddhichal/menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoardGames.dir/build.make CMakeFiles/BoardGames.dir/source/buddhichal/menu.cpp.i
+.PHONY : source/buddhichal/menu.cpp.i
+
+source/buddhichal/menu.s: source/buddhichal/menu.cpp.s
+.PHONY : source/buddhichal/menu.s
+
+# target to generate assembly for a file
+source/buddhichal/menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoardGames.dir/build.make CMakeFiles/BoardGames.dir/source/buddhichal/menu.cpp.s
+.PHONY : source/buddhichal/menu.cpp.s
+
+source/buddhichal/minimax.o: source/buddhichal/minimax.cpp.o
+.PHONY : source/buddhichal/minimax.o
+
+# target to build an object file
+source/buddhichal/minimax.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoardGames.dir/build.make CMakeFiles/BoardGames.dir/source/buddhichal/minimax.cpp.o
+.PHONY : source/buddhichal/minimax.cpp.o
+
+source/buddhichal/minimax.i: source/buddhichal/minimax.cpp.i
+.PHONY : source/buddhichal/minimax.i
+
+# target to preprocess a source file
+source/buddhichal/minimax.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoardGames.dir/build.make CMakeFiles/BoardGames.dir/source/buddhichal/minimax.cpp.i
+.PHONY : source/buddhichal/minimax.cpp.i
+
+source/buddhichal/minimax.s: source/buddhichal/minimax.cpp.s
+.PHONY : source/buddhichal/minimax.s
+
+# target to generate assembly for a file
+source/buddhichal/minimax.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoardGames.dir/build.make CMakeFiles/BoardGames.dir/source/buddhichal/minimax.cpp.s
+.PHONY : source/buddhichal/minimax.cpp.s
+
+source/buddhichal/move.o: source/buddhichal/move.cpp.o
+.PHONY : source/buddhichal/move.o
+
+# target to build an object file
+source/buddhichal/move.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoardGames.dir/build.make CMakeFiles/BoardGames.dir/source/buddhichal/move.cpp.o
+.PHONY : source/buddhichal/move.cpp.o
+
+source/buddhichal/move.i: source/buddhichal/move.cpp.i
+.PHONY : source/buddhichal/move.i
+
+# target to preprocess a source file
+source/buddhichal/move.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoardGames.dir/build.make CMakeFiles/BoardGames.dir/source/buddhichal/move.cpp.i
+.PHONY : source/buddhichal/move.cpp.i
+
+source/buddhichal/move.s: source/buddhichal/move.cpp.s
+.PHONY : source/buddhichal/move.s
+
+# target to generate assembly for a file
+source/buddhichal/move.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoardGames.dir/build.make CMakeFiles/BoardGames.dir/source/buddhichal/move.cpp.s
+.PHONY : source/buddhichal/move.cpp.s
+
+source/buddhichal/processEvents.o: source/buddhichal/processEvents.cpp.o
+.PHONY : source/buddhichal/processEvents.o
+
+# target to build an object file
+source/buddhichal/processEvents.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoardGames.dir/build.make CMakeFiles/BoardGames.dir/source/buddhichal/processEvents.cpp.o
+.PHONY : source/buddhichal/processEvents.cpp.o
+
+source/buddhichal/processEvents.i: source/buddhichal/processEvents.cpp.i
+.PHONY : source/buddhichal/processEvents.i
+
+# target to preprocess a source file
+source/buddhichal/processEvents.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoardGames.dir/build.make CMakeFiles/BoardGames.dir/source/buddhichal/processEvents.cpp.i
+.PHONY : source/buddhichal/processEvents.cpp.i
+
+source/buddhichal/processEvents.s: source/buddhichal/processEvents.cpp.s
+.PHONY : source/buddhichal/processEvents.s
+
+# target to generate assembly for a file
+source/buddhichal/processEvents.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoardGames.dir/build.make CMakeFiles/BoardGames.dir/source/buddhichal/processEvents.cpp.s
+.PHONY : source/buddhichal/processEvents.cpp.s
+
+source/buddhichal/render.o: source/buddhichal/render.cpp.o
+.PHONY : source/buddhichal/render.o
+
+# target to build an object file
+source/buddhichal/render.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoardGames.dir/build.make CMakeFiles/BoardGames.dir/source/buddhichal/render.cpp.o
+.PHONY : source/buddhichal/render.cpp.o
+
+source/buddhichal/render.i: source/buddhichal/render.cpp.i
+.PHONY : source/buddhichal/render.i
+
+# target to preprocess a source file
+source/buddhichal/render.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoardGames.dir/build.make CMakeFiles/BoardGames.dir/source/buddhichal/render.cpp.i
+.PHONY : source/buddhichal/render.cpp.i
+
+source/buddhichal/render.s: source/buddhichal/render.cpp.s
+.PHONY : source/buddhichal/render.s
+
+# target to generate assembly for a file
+source/buddhichal/render.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BoardGames.dir/build.make CMakeFiles/BoardGames.dir/source/buddhichal/render.cpp.s
+.PHONY : source/buddhichal/render.cpp.s
 
 source/checkers/Engine.o: source/checkers/Engine.cpp.o
 .PHONY : source/checkers/Engine.o
@@ -837,9 +981,27 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... source/buddhichal/backend.o"
+	@echo "... source/buddhichal/backend.i"
+	@echo "... source/buddhichal/backend.s"
 	@echo "... source/buddhichal/buddhichal.o"
 	@echo "... source/buddhichal/buddhichal.i"
 	@echo "... source/buddhichal/buddhichal.s"
+	@echo "... source/buddhichal/menu.o"
+	@echo "... source/buddhichal/menu.i"
+	@echo "... source/buddhichal/menu.s"
+	@echo "... source/buddhichal/minimax.o"
+	@echo "... source/buddhichal/minimax.i"
+	@echo "... source/buddhichal/minimax.s"
+	@echo "... source/buddhichal/move.o"
+	@echo "... source/buddhichal/move.i"
+	@echo "... source/buddhichal/move.s"
+	@echo "... source/buddhichal/processEvents.o"
+	@echo "... source/buddhichal/processEvents.i"
+	@echo "... source/buddhichal/processEvents.s"
+	@echo "... source/buddhichal/render.o"
+	@echo "... source/buddhichal/render.i"
+	@echo "... source/buddhichal/render.s"
 	@echo "... source/checkers/Engine.o"
 	@echo "... source/checkers/Engine.i"
 	@echo "... source/checkers/Engine.s"

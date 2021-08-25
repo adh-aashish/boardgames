@@ -3,14 +3,14 @@
 #include <thread>
 using namespace std::chrono_literals;
 
-Engine::GamePlayContext::GamePlayContext(std::shared_ptr<Context> &context) : mContext(context), mWpieces(12), mBpieces(12), mWKpieces(0), mBKpieces(0), mRenderBoard(context), mBoard(8, vector<Engine::Square>(8, Engine::Square(context->mSquareSize))), mP1("W"), mP2("B")
+Engine::GamePlayContext::GamePlayContext(std::shared_ptr<Context> &context) : mContext(context), mWpieces(12), mBpieces(12), mWKpieces(0), mBKpieces(0), mRenderBoard(context), mBoard(8, std::vector<Engine::Square>(8, Engine::Square(context->mSquareSize))), mP1("W"), mP2("B")
 {
     // TODO: may be manage choosing of white or black later
     // but for now just hardcode one to be white player, other
     // to be black player.
     // and p1 ("White") has first move
     mP1.setTurn(true);
-    mBack.createFromTexture(&(mContext->mTextures->getAsset(AssetID::Textures::BackBtn)), sf::Vector2f(15, 15));
+    mBack.createFromTexture(&(mContext->mTextures->getAsset(AssetID::Textures::BackBtn)), sf::Vector2f(15, 2));
 
     // mGameBG initialization starts
     mGameBg.setTexture(mContext->mTextures->getAsset(AssetID::Textures::GameBG));
@@ -197,7 +197,7 @@ void Engine::GamePlayContext::handleBackBtnClick(sf::Event::MouseButtonEvent mou
     if (mContext->isThisButtonPressed(mBack.button.getLocalBounds(), mouse))
     {
         // clicked
-        cout << "Clicked in back btn" << endl;
+        std::cout << "Clicked in back btn" << std::endl;
         mContext->mStates->add(std::make_unique<MainMenu>(mContext), true);
     }
 }

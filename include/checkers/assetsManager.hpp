@@ -3,7 +3,6 @@
 #include <memory>
 #include <iostream>
 
-using namespace std;
 
 // Asset is like sf::Texture, ID is like AssetID::Crown
 // This generic class can make object of fontholder,textureholder,soundholder

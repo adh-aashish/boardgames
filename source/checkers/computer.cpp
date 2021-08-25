@@ -213,7 +213,7 @@ void Computer::processEvents()
             {
                 int PosI = floor((event.mouseButton.y - mContext->mSpaceUDBoard) / mContext->mSquareSize.y);
                 int PosJ = floor((event.mouseButton.x - mContext->mSpaceLRBoard) / mContext->mSquareSize.x);
-                cout << "This: i= " << PosI << ",j= " << PosJ << endl;
+                std::cout << "This: i= " << PosI << ",j= " << PosJ << std::endl;
 
                 // i.e. a piece was clicked
                 if (mGC->mBoard[PosI][PosJ].value != Engine::Square::EMPTY)

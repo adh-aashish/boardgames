@@ -8,29 +8,35 @@ int Buddhichal::cirCount = 0;
 int Buddhichal::crossCount = 0;
 
 Buddhichal::Buddhichal()
-    : viewSize(sf::Vector2f(740 , 740)),
+    : viewSize(sf::Vector2f(930, 1046)),
       window(sf::VideoMode(viewSize.x, viewSize.y), "Buddhichal"),
       w(100), h(100), gap(54),
-      x((viewSize.x / 2.f) - (1.5*w +gap)), y((viewSize.y/2.f)-(1.5*h +gap)),dragCir(NULL),
+      x((viewSize.x / 2.f) - (1.5 * w + gap)), y((viewSize.y / 2.f) - (1.5 * h + gap)), dragCir(NULL),
       dragCross(NULL), gameOver(false), isDragging(false), isDraw(false),
-      noMarkLeft(false),aiPlaying(true),choice(false), ai('X'), opponent('O'), winner(' '), currPlayer('X'),
-      gameBoard  {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}}
+      noMarkLeft(false), aiPlaying(true), choice(false), ai('X'), opponent('O'), winner(' '), currPlayer('X'),
+      gameBoard{{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}}
 {
-  if (!mCross.loadFromFile("../assets/buddhichal/textures/cross.jpg")) {
+  // window centering
+  auto desktop = sf::VideoMode::getDesktopMode();
+  window.setPosition(sf::Vector2i(desktop.width / 2.0f - window.getSize().x / 2, desktop.height / 2 - window.getSize().y / 2));
+  
+  if (!mCross.loadFromFile("../assets/buddhichal/textures/cross.jpg"))
+  {
     // error message
     std::cout << "Couldnot load the file" << std::endl;
   }
-  if(!backBtnTexture.loadFromFile("../assets/checkers/images/backBtn.png"))
+  if (!backBtnTexture.loadFromFile("../assets/checkers/images/backBtn.png"))
   {
     //error
   }
   else
   {
     backBtn.setTexture(backBtnTexture);
-    backBtn.setScale(0.5,0.5);
-    backBtn.setPosition(0,0);
+    backBtn.setScale(0.5, 0.5);
+    backBtn.setPosition(0, 0);
   }
-  if (!bgTexture.loadFromFile("../assets/buddhichal/textures/buddhichal.jpg")) {
+  if (!bgTexture.loadFromFile("../assets/buddhichal/textures/buddhichal.jpg"))
+  {
     // error message
     std::cout << "Couldnot load the file" << std::endl;
   }
@@ -38,22 +44,24 @@ Buddhichal::Buddhichal()
   {
     bgSprite.setTexture(bgTexture);
     bgSprite.setPosition(0, 0);
-    bgSprite.setScale(1.15, 1.15);
+    bgSprite.setScale(window.getSize().x / float(bgTexture.getSize().x), window.getSize().y / float(bgTexture.getSize().y));
   }
   if (!boardTexture.loadFromFile(
-          "../assets/buddhichal/textures/boardTexture.jpg")) {
+          "../assets/buddhichal/textures/boardTexture.jpg"))
+  {
     // error message
     std::cout << "Couldnot load the file" << std::endl;
   }
   if (!restartTexture.loadFromFile(
-          "../assets/buddhichal/textures/restart.jpg")) {
+          "../assets/buddhichal/textures/restart.jpg"))
+  {
     // error message
     std::cout << "Couldnot load the file" << std::endl;
   }
   else
   {
     restartSprite.setTexture(restartTexture);
-    restartSprite.setPosition(viewSize.x/2.f - (restartTexture.getSize().x/2.f), viewSize.y - 100);
+    restartSprite.setPosition(viewSize.x / 2.f - (restartTexture.getSize().x / 2.f), viewSize.y - 100);
   }
   if (!font.loadFromFile("../assets/firstMenu/fonts/FontsFree-Net-GlaiveRegular.ttf"))
   {
@@ -72,14 +80,18 @@ Buddhichal::Buddhichal()
   }
 }
 
-void ::Buddhichal::run() {
-  while (window.isOpen()) {
-    if(choice)
+void ::Buddhichal::run()
+{
+  while (window.isOpen())
+  {
+    if (choice)
     {
-      if (isDragging) {
+      if (isDragging)
+      {
         moveMark();
       }
-      else{
+      else
+      {
         processEvents();
       }
       checkWin();
@@ -91,8 +103,3 @@ void ::Buddhichal::run() {
     }
   }
 }
-
- 
-
-
-

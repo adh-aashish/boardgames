@@ -15,7 +15,7 @@ Engine::MainEngine::~MainEngine() {}
 std::vector<Move> Engine::MainEngine::findLegalNextMoves(int posI, int posJ, const BOARD &board)
 {
     const BOARD &b = (board.size() != 0) ? board : mGC->mBoard;
-    cout << "board.size()=> " << board.size() << endl;
+    std::cout << "board.size()=> " << board.size() << std::endl;
 
     //VVI: moves[0]= left move, moves[1]=right move
     std::vector<Move> moves(2);
@@ -881,16 +881,16 @@ std::vector<Move> Engine::MainEngine::findLegalNextMoves(int posI, int posJ, con
 
 void Engine::MainEngine::displayBoard()
 {
-    cout << "{" << endl;
+    std::cout << "{" << std::endl;
     for (int i = 0; i < 8; i++)
     {
         for (int j = 0; j < 8; j++)
         {
-            cout << mGC->mBoard[i][j].value << "\t";
+            std::cout << mGC->mBoard[i][j].value << "\t";
         }
-        cout << endl;
+        std::cout << std::endl;
     }
-    cout << "}" << endl;
+    std::cout << "}" << std::endl;
 }
 
 Piece *Engine::MainEngine::findPieceAtThisPos(int posI, int posJ)
@@ -939,8 +939,8 @@ Piece *Engine::MainEngine::findPieceAtThisPos(int posI, int posJ)
     }
 
     // if code flow reaches here then there is no piece at (posI,posJ)
-    cout << mGC->mBoard[posI][posJ].value << endl;
-    throw std::runtime_error("findPieceAtThisPos function called on bad (posI,posJ)= " + to_string(posI) + "," + to_string(posJ) + " where there is no piece ");
+    std::cout << mGC->mBoard[posI][posJ].value << std::endl;
+    throw std::runtime_error("findPieceAtThisPos function called on bad (posI,posJ)= " + std::to_string(posI) + "," + std::to_string(posJ) + " where there is no piece ");
 }
 
 void Engine::MainEngine::colorThePossibleMoves(const std::vector<Move> &moves, sf::Color color)
@@ -951,13 +951,13 @@ void Engine::MainEngine::colorThePossibleMoves(const std::vector<Move> &moves, s
     {
         for (int i = 0; i < moves[index].mFinalPos.size(); i++)
         {
-            cout << moves[index].mFinalPos[i][0] << "," << moves[index].mFinalPos[i][1] << "\t";
+            std::cout << moves[index].mFinalPos[i][0] << "," << moves[index].mFinalPos[i][1] << "\t";
 
             // mGC->mBoard[moves[index].mFinalPos[i][0]][moves[index].mFinalPos[i][1]].square.setOutlineColor(sf::Color::White);
             mGC->mBoard[moves[index].mFinalPos[i][0]][moves[index].mFinalPos[i][1]].square.setFillColor(color);
             // mGC->mBoard[moves[index].mFinalPos[i][0]][moves[index].mFinalPos[i][1]].square.setOutlineColor(sf::Color::Transparent);
         }
-        cout << endl;
+        std::cout << std::endl;
     }
 }
 
@@ -983,7 +983,7 @@ bool Engine::MainEngine::promoteToKingIfPossible(Piece *piece)
         // a white piece not a white king, so deletes that white piece
         mGC->captureAPiece(piece);
         mGC->mBoard[newKing.getPosI()][newKing.getPosJ()].value = Engine::Square::WHITEKING;
-        cout << "size of wpieces = " << mGC->mWpieces.size() << endl;
+        std::cout << "size of wpieces = " << mGC->mWpieces.size() << std::endl;
         mGC->mWKpieces.push_back(newKing);
         return true;
     }

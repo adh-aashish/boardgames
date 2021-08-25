@@ -96,7 +96,7 @@ inline void Button::createFromTexture(const sf::Texture *texture, const sf::Vect
 {
     button.setTexture(texture);
     button.setPosition(pos);
-    button.setSize(sf::Vector2f(80, 80));
+    button.setSize(sf::Vector2f(60, 60));
     isLabel = false;
 }
 
@@ -136,11 +136,11 @@ inline Context::Context()
     // creation of window
     sf::Vector2f screenSize(sf::VideoMode::getDesktopMode().width, sf::VideoMode::getDesktopMode().height);
     // changed starts - for temp. size of screen
-    screenSize = sf::Vector2f(1500, 1050);
+    screenSize = sf::Vector2f(930, 1046);
     // changed ends
     mWindow->create(sf::VideoMode(screenSize.x, screenSize.y), "Checkers", sf::Style::Titlebar | sf::Style::Close);
 
-    mBoardSize = sf::Vector2f(mWindow->getSize().x * (2 / 3.0f), mWindow->getSize().y * (20 / 21.0f));
+    mBoardSize = sf::Vector2f(mWindow->getSize().x * (30 / 31.0f), mWindow->getSize().y * (450 / 523.0f));
 
     mSquareSize = sf::Vector2f(mBoardSize.x / 8.0f, mBoardSize.y / 8.0f);
 

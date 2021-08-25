@@ -29,7 +29,7 @@ void GameOver::processEvents()
         {
             if (mContext->isThisButtonPressed(mBackToMenu.button.getGlobalBounds(), event.mouseButton))
             {
-                cout << "Pressed back to menu" << endl;
+                std::cout << "Pressed back to menu" << std::endl;
                 mContext->mStates->add(std::make_unique<MainMenu>(mContext), true);
             }
         }

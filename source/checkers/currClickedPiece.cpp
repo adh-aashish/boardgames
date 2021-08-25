@@ -123,7 +123,7 @@ void Engine::CurrentClickedPiece::checkForFinalPosClick(int posI, int posJ)
                         {
                             // that means final pos is found on this path of left
                             // side say
-                            cout << "POS-I=" << (*found)[0] << " POS-J=" << (*found)[1] << endl;
+                            std::cout << "POS-I=" << (*found)[0] << " POS-J=" << (*found)[1] << std::endl;
                             for (int j = 0; j < (*itr).size(); j++)
                             {
                                 if (mGC->mBoard[(*itr)[j][0]][(*itr)[j][1]].value != Engine::Square::EMPTY and !(mPiece->getPosI() == (*itr)[j][0] and mPiece->getPosJ() == (*itr)[j][1]))
