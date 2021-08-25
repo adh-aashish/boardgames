@@ -1,4 +1,4 @@
-#include "def.h"
+#include "include/chess/def.h"
 #include "include/checkers/checkers.hpp"
 #include <iostream>
 #include "include/buddhichal/Buddhichal.hpp"
@@ -131,7 +131,6 @@ public:
 
 int main()
 {
-
   sf::RenderWindow window(sf::VideoMode(1080, 1080), "BoardGames");
   Menu menu(window);
   while (window.isOpen())
@@ -152,6 +151,8 @@ int main()
         break;
       case sf::Event::MouseMoved:
         menu.handleButtonHover(window, event.mouseMove);
+        break;
+      default:
         break;
       }
     }

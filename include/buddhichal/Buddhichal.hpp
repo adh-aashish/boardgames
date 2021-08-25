@@ -1,8 +1,5 @@
 #include<SFML/Graphics.hpp>
 #include <SFML/Graphics/CircleShape.hpp>
-// #include "Piece.hpp"
-// #include "Circle.hpp"
-// #include "Cross.hpp"
 
 class Buddhichal 
 {
@@ -19,6 +16,7 @@ class Buddhichal
     bool isDraw;
     bool noMarkLeft;
     bool aiPlaying;
+    bool choice;
     char winner;
     char currPlayer;
     char ai;
@@ -26,43 +24,44 @@ class Buddhichal
     char gameBoard[3][3];
     sf::Font font;
     sf::Text text;
+    sf::Text option[3];
     sf::RectangleShape board;
     sf::RectangleShape line;
     sf::RectangleShape boardLine;
     sf::Vector2i mousePosition;
-    sf::Vector2i initDragPosition;
     sf::CircleShape cir[3];
     sf::Texture mCross;
     sf::Texture boardTexture;
-    sf::Texture titleTexture;
     sf::Texture restartTexture;
+    sf::Texture backBtnTexture;
     sf::Sprite restartSprite;
-    sf::Sprite titlesprite;
+    sf::Sprite backBtn;
     sf::Texture bgTexture;
     sf::Sprite cross[3];
     sf::Sprite bgSprite;
     static int cirCount;
     static int crossCount;
-    class Circle;
-    class Cross;
+    class Menu;
     int minimax(char b[3][3], int depth, bool maximizingPlayer, int count, int alpha, int beta);
     int evaluate(char b[3][3]);
     bool isValidMove(char [3][3], int newi, int newj);
     void findBestMove(sf::Vector2i pos[] , char b[3][3]);
+    void chooseOption();
+    void menu();
     void drawBoard();
-    void drawBoardLine(int,int,int);
     void drawRect(float x,float y);
     void setPlayer();
     void drawPlayer();
     void drawLine(int,int,int);
+    void drawLine(int,int,int,bool);
     void processEvents();
     void updateGameBoard();
     void placeMark();
     void selectMark();
     void moveMark();
     void checkWin();
-    void checkDraw();
     void restartGame();
+    void render(bool);
     void render();
 
   public:
