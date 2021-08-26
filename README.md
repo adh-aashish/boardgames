@@ -14,6 +14,7 @@ Install SFML as according to your machine.
 From our base project directory, type in the following commands:
 
 ```
+$ rm -rf build
 $ cmake CMakeLists.txt -B build
 $ cd build
 $ make
