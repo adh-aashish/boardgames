@@ -1,6 +1,28 @@
 # BoardGames
 
+BoardGames is the collection of three games namely Buddhichal, Checkers and Chess
+Each game has single player ( with computer ) and multiplayer mode ( except in chess ).
+See the building instructions below to build and play on your own computer.
 
+## Images of Some Screens :
+
+### 1. Main Menu
+![](./finalImages/mainmenu.png)
+### 2. Buddhichal
+![](./finalImages/buddhichal.png)
+
+![](./finalImages/bc3.png)
+
+### 3. Checkers
+![](./finalImages/checkers.png)
+
+![](./finalImages/checkers-king.png)
+
+### 4. Chess
+![](./finalImages/chess2.png)
+
+
+### Further images :
 The final images of the game can be seen from [here](https://github.com/avisekksarma/BoardGames/tree/main/finalImages)
 
 ##### **Building Instructions**
