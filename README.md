@@ -1,7 +1,9 @@
 # BoardGames
 
-BoardGames is the collection of three games namely Buddhichal, Checkers and Chess
+BoardGames is the collection of three games namely Buddhichal, Checkers and Chess.
+
 Each game has single player ( with computer ) and multiplayer mode ( except in chess ).
+
 See the building instructions below to build and play on your own computer.
 
 ## Images of Some Screens :
