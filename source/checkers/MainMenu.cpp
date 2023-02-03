@@ -1,5 +1,5 @@
 #include "../../include/checkers/MainMenu.hpp"
-#include "../../mainMenu.hpp"
+#include "../../include/mainMenu.hpp"
 #include "../../include/checkers/multiplayer-offline.hpp"
 #include "../../include/checkers/computer.hpp"
 

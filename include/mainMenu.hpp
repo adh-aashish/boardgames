@@ -1,8 +1,8 @@
 #pragma once
-#include "include/chess/def.h"
-#include "include/checkers/checkers.hpp"
+#include "chess/def.h"
+#include "checkers/checkers.hpp"
 #include <iostream>
-#include "include/buddhichal/Buddhichal.hpp"
+#include "buddhichal/Buddhichal.hpp"
 #include <string>
 
 class Menu
@@ -71,21 +71,18 @@ public:
         float posY = mouseBtn.y;
         if (btns[0].getGlobalBounds().contains(posX, posY))
         {
-            std::cout << "Clicked in Buddhichal" << std::endl;
             Buddhichal buddhichal;
             window.close();
             buddhichal.run();
         }
         else if (btns[1].getGlobalBounds().contains(posX, posY))
         {
-            std::cout << "Clicked in Checkers" << std::endl;
             Checkers checkers;
             window.close();
             checkers.run();
         }
         else if (btns[2].getGlobalBounds().contains(posX, posY))
         {
-            std::cout << "Clicked in Chess" << std::endl;
             window.close();
             chess();
         }
@@ -136,7 +133,7 @@ public:
     {
         sf::RenderWindow window(sf::VideoMode(930, 1046), "BoardGames");
         auto desktop = sf::VideoMode::getDesktopMode();
-        window.setPosition(sf::Vector2i(desktop.width / 2.0f - window.getSize().x / 2, desktop.height / 2 - window.getSize().y / 2));
+        window.setPosition(sf::Vector2i(desktop.width / 2.0f - window.getSize().x / 2.f, desktop.height / 2 - window.getSize().y / 2));
         Menu menu(window);
         while (window.isOpen())
         {

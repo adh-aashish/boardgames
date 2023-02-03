@@ -1,5 +1,5 @@
 #include <SFML/Graphics.hpp>
-#include "../../mainMenu.hpp"
+#include "../../include/mainMenu.hpp"
 #include <SFML/Audio.hpp>
 #include <iostream>
 #include <chrono>

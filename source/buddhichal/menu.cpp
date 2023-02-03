@@ -1,5 +1,5 @@
 #include "../../include/buddhichal/Buddhichal.hpp"
-#include "../../mainMenu.hpp"
+#include "../../include/mainMenu.hpp"
 #include <string>
 #include <iostream>
 
